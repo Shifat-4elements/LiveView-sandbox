@@ -20,7 +20,6 @@ defmodule GalleryWeb.Router do
 
     get "/", PageController, :index
     live "/gallery", GalleryLive
-    live "/counter", CounterLive
   end
 
   # Other scopes may use custom stacks.
