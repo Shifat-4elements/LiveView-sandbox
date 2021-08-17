@@ -1,6 +1,6 @@
 
 defmodule GalleryWeb.GalleryLive do
-  use Phoenix.LiveView
+  use Phoenix.LiveView, layout: {GalleryWeb.LayoutView, "live.html"}
 
   def mount(_params, _session, socket) do
     {:ok, socket}
